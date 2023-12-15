@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="product__title">
+          <h1 class="product__title--heading">Sony Lens</h1>
+        </div>
+        <div class="product__box">
+          <div class="product__box--images">
+            <img
+              src="https://www.sony.com/image/a94cd4f4763d71dc370ee39b1a9c7020?fmt=png-alpha&wid=600"
+              alt="lense"
+              class="product--img"
+            />
+            <img
+              src="https://www.sony.com/image/eb05b2d66c3938e260f257325ca6f319?fmt=jpeg&wid=720&qlt=85"
+              alt="lense"
+              class="product--img"
+            />
+            <img
+              src="https://www.sony.com/image/13b5573eb5d0206a02c87749a51feb8d?fmt=jpeg&wid=720&qlt=85"
+              alt="lense"
+              class="product--img"
+            />
+            <img
+              src="https://www.sony.com/image/a10c42de628d463f58c9acdfebfc7eae?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9"
+              alt="lense"
+              class="product--img"
+            />
+            <img
+              src="https://www.sony.com/image/e0563c941bf9bca4b5d20d621a102442?fmt=jpeg&wid=720&qlt=85"
+              alt="lense"
+              class="product--img"
+            />
+          </div>
+          <div class="product__box--preview">
+            <img
+              src="https://www.sony.com/image/e0563c941bf9bca4b5d20d621a102442?fmt=jpeg&wid=720&qlt=85"
+              alt="product preview"
+              width="400px"
+              height="300px"
+              class="preview--img"
+            />
+          </div>
+          <div class="product__box--description">
+            <div class="product__specifications">
+              <h1>FE 70-200mm F4 Macro G OSS Ⅱ</h1>
+              <p>
+                Our most advanced lens technology comes together in a compact,
+                lightweight 70-200 mm F4 telephoto zoom G Lens™ that delivers
+                outstanding optical and AF performance as well as half-macro
+                capability1 throughout the zoom range. Impressive handling and
+                mobility make it an excellent choice for a wide range of still
+                and movie applications.
+              </p>
+
+              <div class="product__purchase">
+                <div class="price--box">
+                  <p>Price</p>
+                  <span>$ 3200.00</span>
+                </div>
+                <div class="quantity--box">
+                  <label for="quantity">Quantity</label>
+                  <div class="quantity--control">
+                    <input
+                      type="number"
+                      name="quantity"
+                      id="quantity"
+                      max="100"
+                      min="1"
+                      value="1"
+                    />
+
+                    <!-- INCASE YOU OPT FOR A DIV INSTEAD OF USING AN INPUT BOX -->
+                    <!-- <div class="quantity--value">1</div> -->
+                    <!-- <div class="arrows-box">
+                      <div class="arrow up">
+                        <img
+                          src="./Assets/icons/up-arrow.png"
+                          alt="arrow up"
+                          width="20px"
+                        />
+                      </div>
+                      <div class="arrow down">
+                        <img
+                          src="./Assets/icons/down-arrow.png"
+                          alt="arrow down"
+                          width="20px"
+                        />
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+                <button class="cart--btn">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product__box--extra">
+          <div class="product__box--benefits">
+            <h3>benefits</h3>
+            <ul>
+              <li>Spectacular G Lens rendering</li>
+              <li>Eye-opening close-up performance</li>
+              <li>Fast autofocus matches high-speed bodies</li>
+              <li>Refined movie performance and imagery</li>
+              <li>Top-class performance with teleconverters</li>
+              <li>Compact, mobile, reliable, and easy to use</li>
+            </ul>
+          </div>
+
+          <div class="product__review">
+            <h3>Specifications</h3>
+
+            <div>
+              <table>
+                <tr>
+                  <td>mount</td>
+                  <td>Sony E-mount</td>
+                </tr>
+                <tr>
+                  <td>format</td>
+                  <td>35mm full frame</td>
+                </tr>
+                <tr>
+                  <td>focal-length(mm)</td>
+                  <td>70-200</td>
+                </tr>
+                <tr>
+                  <td>FOCAL LENGTH(35MM)</td>
+                  <td>105-300</td>
+                </tr>
+                <tr>
+                  <td>ANGLE OF VIEW(35MM)</td>
+                  <td>34ﾟ-12ﾟ30'</td>
+                </tr>
+                <tr>
+                  <td>MAXIMUM APERTURE(F)</td>
+                  <td>4.0</td>
+                </tr>
+                <tr>
+                  <td>ZOOM SYSTEM</td>
+                  <td>Manual</td>
+                </tr>
+                <tr>
+                  <td>MINIMUM FOCUS DISTANCE</td>
+                  <td>0.26-0.42 m(0.86-1.38 ft)</td>
+                </tr>
+                <tr>
+                  <td>DIMENSIONS (D X L)</td>
+                  <td>82.2 x 149.0 mm(3-1/4 x 5-7/8 in.)</td>
+                </tr>
+                <tr>
+                  <td>WEIGHT</td>
+                  <td>794 g(28.1 oz.)2</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="customer__review">
+            <div>
+              <img
+                src="./Assets/icons/star-solid-full.png"
+                alt="star"
+                width="20px"
+              />
+              <img
+                src="./Assets/icons/star-solid-full.png"
+                alt="star"
+                width="20px"
+              />
+              <img
+                src="./Assets/icons/star-solid-full.png"
+                alt="star"
+                width="20px"
+              />
+              <img
+                src="./Assets/icons/star-solid-full.png"
+                alt="star"
+                width="20px"
+              />
+              <img
+                src="./Assets/icons/star-half.png"
+                alt="half-star"
+                width="20px"
+              />
+            </div>
+            <div class="ratings">
+              <h3>Product Rating</h3>
+              <h1>4.5</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
